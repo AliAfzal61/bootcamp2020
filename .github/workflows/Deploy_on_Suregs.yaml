@@ -28,4 +28,4 @@ jobs:
       - name: Setup Surge
         run: npm install --global surge
       - name: Execute Deployment
-        run: surge ./ C:\Users\ABC\Documents\GitHub\bootcamp2020\ lwpbootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ lwpbootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
